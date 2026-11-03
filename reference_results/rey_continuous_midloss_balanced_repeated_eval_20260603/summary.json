@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "ensemble_dir": "results_gui\\rey_continuous_multitask_midloss_5seed_ensemble_split310_20260602",
+  "repeated_split_dir": "results_gui\\rey_continuous_balanced_repeated_core_splits_20260603",
+  "output_dir": "results_gui\\rey_continuous_midloss_balanced_repeated_eval_20260603",
+  "n_repeats": 20,
+  "mean": {
+    "stat": "mean",
+    "n_samples": 382.7,
+    "n_cores": 11.0,
+    "log_mae": 0.4696556571718705,
+    "log_rmse": 0.6757556496161865,
+    "spearman_log": 0.6798800991325359,
+    "r2_log": 0.468183400606146,
+    "mechanism_macro_f1": 0.7643198935668319,
+    "class1_f1": 0.5190183180433448,
+    "ap1000": 0.6558866779634374,
+    "ap1500": 0.48976063186804064,
+    "high1000_support": 78.85,
+    "high1500_support": 34.6,
+    "high1000_log_bias": -0.6555189368045485,
+    "high1500_log_bias": -0.9649950596676005,
+    "low600_log_bias": 0.29138920949563324
+  },
+  "std": {
+    "stat": "std",
+    "n_samples": 91.99605254689207,
+    "n_cores": 0.0,
+    "log_mae": 0.09635176131820357,
+    "log_rmse": 0.11426562138843747,
+    "spearman_log": 0.14426152322495472,
+    "r2_log": 0.1563779811743542,
+    "mechanism_macro_f1": 0.10013604354734432,
+    "class1_f1": 0.2775548528314203,
+    "ap1000": 0.18414364525943425,
+    "ap1500": 0.2157350697945636,
+    "high1000_support": 23.62486424355314,
+    "high1500_support": 10.835613795064377,
+    "high1000_log_bias": 0.32684447624470836,
+    "high1500_log_bias": 0.3921119684957612,
+    "low600_log_bias": 0.1354883293240119
+  }
+}

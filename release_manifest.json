@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "tag": "v1.0.0",
+  "assets": [
+    {
+      "group": "inputs",
+      "path": "data/env_gridded.nc",
+      "asset_name": "env_gridded.nc",
+      "bytes": 473733373,
+      "sha256": "d874433f4a1602606629e0066e3819c30edad2292b1a04b45247639cff74534f"
+    },
+    {
+      "group": "inputs",
+      "path": "data/Average sedimentation rate.nc",
+      "asset_name": "Average sedimentation rate.nc",
+      "bytes": 25985648,
+      "sha256": "d0c9f68643836cbfc4ea4ca2de31a0cc6347df7ae212a495fa0abb687598231d"
+    },
+    {
+      "group": "products",
+      "path": "products/continuous_rey_paper_summary_2d.nc",
+      "asset_name": "continuous_rey_paper_summary_2d.nc",
+      "bytes": 138849805,
+      "sha256": "007cd1170504c779532494ff2ba827cabae640bc5c528816cd448b9bb346f151"
+    },
+    {
+      "group": "products",
+      "path": "products/rey_predictions_3d_part01.nc",
+      "asset_name": "rey_predictions_3d_part01.nc",
+      "bytes": 675228630,
+      "sha256": "3f9262cc385677e6c78fdc3b0fc4eb2e39cd1fe540a48c5594caec375041f9bb"
+    },
+    {
+      "group": "products",
+      "path": "products/rey_predictions_3d_part02.nc",
+      "asset_name": "rey_predictions_3d_part02.nc",
+      "bytes": 687403811,
+      "sha256": "3806ae846272408b17254ec5c48fddfbc11531f428c420cdd5a0897507f665ff"
+    },
+    {
+      "group": "products",
+      "path": "products/rey_predictions_3d_part03.nc",
+      "asset_name": "rey_predictions_3d_part03.nc",
+      "bytes": 690716032,
+      "sha256": "500531a004fa86ab5704ce33040ed98610a70e3b9ff043bcbf55d709fe2ac8b0"
+    }
+  ],
+  "map_parts": [
+    {
+      "path": "products/rey_predictions_3d_part01.nc",
+      "age_layers_ka": [
+        0.0,
+        100.0,
+        200.0,
+        300.0,
+        400.0,
+        500.0,
+        600.0,
+        700.0,
+        800.0
+      ]
+    },
+    {
+      "path": "products/rey_predictions_3d_part02.nc",
+      "age_layers_ka": [
+        900.0,
+        1000.0,
+        1100.0,
+        1200.0,
+        1300.0,
+        1400.0,
+        1500.0,
+        1600.0,
+        1700.0
+      ]
+    },
+    {
+      "path": "products/rey_predictions_3d_part03.nc",
+      "age_layers_ka": [
+        1800.0,
+        1900.0,
+        2000.0,
+        2100.0,
+        2200.0,
+        2300.0,
+        2400.0,
+        2500.0,
+        2580.0
+      ]
+    }
+  ]
+}

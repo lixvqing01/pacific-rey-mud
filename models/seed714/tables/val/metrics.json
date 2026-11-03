@@ -1,0 +1,80 @@
+{
+  "regression": {
+    "n": 666,
+    "log_mae": 0.461693980817772,
+    "log_rmse": 0.6968760633828677,
+    "mae_rey": 260.3770810576888,
+    "rmse_rey": 503.44072646004633,
+    "spearman_log": 0.6548195892359422,
+    "pearson_log": 0.6461041696021809,
+    "r2_log": 0.40996660484622105
+  },
+  "mechanism3": {
+    "accuracy": 0.8033033033033034,
+    "balanced_accuracy": 0.6635320646248389,
+    "macro_f1": 0.6211964630638002,
+    "confusion_matrix": [
+      [
+        56,
+        51,
+        45
+      ],
+      [
+        3,
+        28,
+        11
+      ],
+      [
+        19,
+        2,
+        451
+      ]
+    ],
+    "carbonate_background_precision": 0.717948717948718,
+    "carbonate_background_recall": 0.3684210526315789,
+    "carbonate_background_f1": 0.48695652173913045,
+    "carbonate_background_support": 152,
+    "class1_enriched_precision": 0.345679012345679,
+    "class1_enriched_recall": 0.6666666666666666,
+    "class1_enriched_f1": 0.45528455284552843,
+    "class1_enriched_support": 42,
+    "class2_slow_sedimentation_precision": 0.8895463510848126,
+    "class2_slow_sedimentation_recall": 0.9555084745762712,
+    "class2_slow_sedimentation_f1": 0.9213483146067416,
+    "class2_slow_sedimentation_support": 472
+  },
+  "thresholds": {
+    "rey_ge_600_positive_support": 240,
+    "rey_ge_600_negative_support": 426,
+    "rey_ge_600_ap": 0.6877989191341058,
+    "rey_ge_600_roc_auc": 0.8182511737089202,
+    "rey_ge_600_brier": 0.16994823782505417,
+    "rey_ge_600_precision_at_0_5": 0.6772727272727272,
+    "rey_ge_600_recall_at_0_5": 0.6208333333333333,
+    "rey_ge_600_f1_at_0_5": 0.6478260869565218,
+    "rey_ge_800_positive_support": 148,
+    "rey_ge_800_negative_support": 518,
+    "rey_ge_800_ap": 0.4932538250872379,
+    "rey_ge_800_roc_auc": 0.7844098925180006,
+    "rey_ge_800_brier": 0.15465768786327874,
+    "rey_ge_800_precision_at_0_5": 0.5217391304347826,
+    "rey_ge_800_recall_at_0_5": 0.4864864864864865,
+    "rey_ge_800_f1_at_0_5": 0.5034965034965035,
+    "rey_ge_1000_positive_support": 103,
+    "rey_ge_1000_negative_support": 563,
+    "rey_ge_1000_ap": 0.38626788708584325,
+    "rey_ge_1000_roc_auc": 0.7916673851937436,
+    "rey_ge_1000_brier": 0.11644399940663924,
+    "rey_ge_1000_precision_at_0_5": 0.5673076923076923,
+    "rey_ge_1000_recall_at_0_5": 0.5728155339805825,
+    "rey_ge_1000_f1_at_0_5": 0.5700483091787439,
+    "rey_ge_1500_positive_support": 36,
+    "rey_ge_1500_negative_support": 630,
+    "rey_ge_1500_ap": 0.10498388919779097,
+    "rey_ge_1500_roc_auc": 0.7298500881834216,
+    "rey_ge_1500_brier": 0.09485878322222135,
+    "rey_ge_1500_precision_at_0_5": 0.11827956989247312,
+    "rey_ge_1500_recall_at_0_5": 0.3055555555555556,
+    "rey_ge_1500_f1_at_0_5": 0.17054263565891473
+  }
+}

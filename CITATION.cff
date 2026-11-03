@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this tagged software release and the accompanying article."
+title: "Pacific REY mud reproduction workflow"
+type: software
+version: 1.0.0
+repository-code: "https://github.com/lixvqing01/pacific-rey-mud"
+url: "https://github.com/lixvqing01/pacific-rey-mud/releases/tag/v1.0.0"
+license: MIT
+authors:
+  - family-names: Li
+    given-names: Xuqing
+  - family-names: Zhang
+    given-names: Yunying
+keywords:
+  - geosciences
+  - rare earth elements
+  - deep-sea sediment
+  - multitask learning

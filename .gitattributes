@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pth -text
+*.npy -text
+*.npz -text
+*.parquet -text
+*.nc -text
+*.xlsx -text
