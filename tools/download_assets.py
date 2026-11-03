@@ -13,7 +13,7 @@ def digest(path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--repo', required=True, help='GitHub OWNER/REPOSITORY')
-    parser.add_argument('--tag', default='v1.0.0')
+    parser.add_argument('--tag', default='v1.0.1')
     parser.add_argument('--group', choices=['inputs', 'products', 'all'], default='all')
     args = parser.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', args.repo):

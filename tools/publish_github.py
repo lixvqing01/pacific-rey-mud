@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--repo', required=True, help='Existing public GitHub OWNER/REPOSITORY')
-    parser.add_argument('--tag', default='v1.0.0')
+    parser.add_argument('--tag', default='v1.0.1')
     parser.add_argument('--execute', action='store_true', help='Actually create a release and upload assets.')
     args = parser.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', args.repo):

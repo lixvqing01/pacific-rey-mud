@@ -22,8 +22,8 @@ in the source repository. Large environmental grids and map products are
 optional GitHub Release downloads:
 
 ```bash
-python -B tools/download_assets.py --repo lixvqing01/pacific-rey-mud --tag v1.0.0 --group inputs
-python -B tools/download_assets.py --repo lixvqing01/pacific-rey-mud --tag v1.0.0 --group products
+python -B tools/download_assets.py --repo lixvqing01/pacific-rey-mud --tag v1.0.1 --group inputs
+python -B tools/download_assets.py --repo lixvqing01/pacific-rey-mud --tag v1.0.1 --group products
 python -B tools/verify_package.py
 ```
 

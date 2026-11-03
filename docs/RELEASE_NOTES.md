@@ -1,4 +1,8 @@
-# Pacific REY reproduction version 1.0.0
+# Pacific REY reproduction version 1.0.1
+
+This public release aligns the download manifest with GitHub asset filenames.
+Scientific data, checkpoints and reference predictions are unchanged from the
+initial v1.0.0 source snapshot.
 
 This release contains the archived model-ready table documented in
 `data/Supplementary_Data_1_Geochemistry_and_Inputs.xlsx` (Data scope sheet),

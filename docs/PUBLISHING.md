@@ -27,7 +27,7 @@ download examples, then refresh the source checksums before committing.
    upload the directory tree in one commit. Keep .gitignore: it excludes the six
    large NetCDF assets, local outputs and verification working files. Code,
    tables, split arrays and model weights remain individually browsable.
-3. Commit the source and create/push the tag v1.0.0. Retain that tag for the
+3. Commit the source and create/push the tag v1.0.1. Retain that tag for the
    submitted version. Do not overwrite the tagged assets with changed data.
 4. With GitHub CLI installed and authenticated, first inspect the command:
 

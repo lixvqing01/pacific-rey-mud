@@ -43,10 +43,10 @@ MAE **0.4425**, Spearman **0.7747**, R² **0.5785**, AP1000 **0.8433**,
 AP1500 **0.7424** and facies macro-F1 **0.8771**.
 
 For fresh inference from the five checkpoints, first download the input grids
-from this repository's `v1.0.0` Release:
+from this repository's `v1.0.1` Release:
 
 ```bash
-python -B tools/download_assets.py --repo lixvqing01/pacific-rey-mud --tag v1.0.0 --group inputs
+python -B tools/download_assets.py --repo lixvqing01/pacific-rey-mud --tag v1.0.1 --group inputs
 python -B tools/reproduce_evaluation.py --mode weights --device cpu
 ```
 
@@ -79,7 +79,7 @@ Large inputs and archived maps are individual GitHub Release attachments.
 optional maps and check the complete local package:
 
 ```bash
-python -B tools/download_assets.py --repo lixvqing01/pacific-rey-mud --tag v1.0.0 --group products
+python -B tools/download_assets.py --repo lixvqing01/pacific-rey-mud --tag v1.0.1 --group products
 python -B tools/verify_package.py
 ```
 

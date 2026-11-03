@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "tag": "v1.0.0",
+  "tag": "v1.0.1",
   "assets": [
     {
       "group": "inputs",
@@ -12,7 +12,7 @@
     {
       "group": "inputs",
       "path": "data/Average sedimentation rate.nc",
-      "asset_name": "Average sedimentation rate.nc",
+      "asset_name": "Average.sedimentation.rate.nc",
       "bytes": 25985648,
       "sha256": "d0c9f68643836cbfc4ea4ca2de31a0cc6347df7ae212a495fa0abb687598231d"
     },
