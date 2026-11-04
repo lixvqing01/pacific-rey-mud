@@ -11,6 +11,6 @@ All paths in the executable commands are supplied explicitly. These
 configuration files therefore contain scientific settings rather than local
 computer paths.
 
-The reported sample inventory and geochemical data scope are given in the
+The sample inventory and geochemical source references are given in the
 accompanying manuscript's `Supplementary_Data_1_Geochemistry_and_Inputs.xlsx`.
 

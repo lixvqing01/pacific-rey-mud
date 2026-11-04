@@ -54,7 +54,7 @@ The supported commands, resource requirements and training/map examples are
 in [Reproducing the workflow](docs/REPRODUCING.md). Numerical tolerances and
 completed checks are in [Validation](docs/VALIDATION.md).
 
-## Files and data scope
+## Files and data organization
 
 | Location | Contents |
 |---|---|
@@ -68,11 +68,9 @@ completed checks are in [Validation](docs/VALIDATION.md).
 | `products/` | Map metadata and optional downloaded NetCDF products |
 
 [Supplementary Data 1](data/Supplementary_Data_1_Geochemistry_and_Inputs.xlsx)
-documents the sample inventory and data scope. Its **Data scope** sheet
-distinguishes the manuscript compilation from the archived model records.
-Numerical reproduction uses `data/geochem_class_table.parquet` and the row
-assignments in `splits/fixed/`. Their relationship is described in
-[Provenance](docs/PROVENANCE.md).
+documents the compiled sample inventory and source references. Numerical
+reproduction uses `data/geochem_class_table.parquet` and the row assignments in
+`splits/fixed/`. Their provenance is described in [Provenance](docs/PROVENANCE.md).
 
 Large inputs and archived maps are individual GitHub Release attachments.
 `release_manifest.json` records their sizes and SHA256 hashes. To download the

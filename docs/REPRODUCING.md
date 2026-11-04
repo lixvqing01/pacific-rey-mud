@@ -50,10 +50,9 @@ Fresh grid preparation and high-resolution mapping require approximately 12 GB
 of RAM and at least 10 GB of free disk space. They are unnecessary for the
 archived metric check.
 
-The data scope and sample inventory are recorded in
+The sample inventory and source references are recorded in
 [Supplementary Data 1](../data/Supplementary_Data_1_Geochemistry_and_Inputs.xlsx).
-Its Data scope sheet identifies the compilation and archived model records;
-runtime indices refer to `data/geochem_class_table.parquet`.
+Runtime indices refer to `data/geochem_class_table.parquet`.
 
 ## Retrain the fixed models
 

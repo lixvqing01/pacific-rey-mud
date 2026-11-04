@@ -15,7 +15,7 @@ numerical evidence is in local_validation.json.
 | Map reader | All 27 layers open as Dask-backed arrays; values sampled from the first, middle and final parts. |
 | Training configuration | Five dry-run commands checked; every command uses the archived fixed split arrays. |
 | Source review | Python syntax, English comments/docstrings and source file checksums checked. |
-| Scientific artifact identity | Sample inventory and geochemical data scope are documented in the accompanying manuscript's `Supplementary_Data_1`; disjoint fixed core split, checkpoint channels and thresholds checked. |
+| Scientific artifact identity | Sample inventory and source references are documented in the accompanying manuscript's `Supplementary_Data_1`; disjoint fixed core split, checkpoint channels and thresholds checked. |
 
 Inference and map tests used CPU. The existing environment includes a CUDA
 development build of PyTorch; the exact version is recorded. A fresh environment
@@ -24,6 +24,5 @@ complete component/repeated suite were not repeated for this packaging check.
 Their reference artifacts and reproduction scripts are supplied. A local source
 export also exercises the quick example without the large input grids.
 
-Public GitHub clone and Release-download checks follow publication using
-docs/PUBLISHING.md. Software tests establish the tested reproduction behaviour;
-the article's data-population statements must be aligned separately.
+The public GitHub clone and Release downloads were checked against the tagged
+release. Software tests establish the tested reproduction behaviour.

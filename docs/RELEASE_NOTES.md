@@ -4,8 +4,8 @@ This public release aligns the download manifest with GitHub asset filenames.
 Scientific data, checkpoints and reference predictions are unchanged from the
 initial v1.0.0 source snapshot.
 
-This release contains the archived model-ready table documented in
-`data/Supplementary_Data_1_Geochemistry_and_Inputs.xlsx` (Data scope sheet),
+This release contains the archived model-ready table and the sample/source
+documentation in `data/Supplementary_Data_1_Geochemistry_and_Inputs.xlsx`,
 five pretrained checkpoints, fixed train/validation/test
 assignments and reference predictions. Source code, small tables, checkpoints
 and a CPU example are in the tagged repository. Large inputs and numerical

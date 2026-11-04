@@ -1,8 +1,8 @@
 # Data sources
 
 See the accompanying manuscript's `Supplementary_Data_1`
-(`Supplementary_Data_1_Geochemistry_and_Inputs.xlsx`) for its reported sample
-inventory and geochemical data scope. Sample indices are zero-based row indices
+(`Supplementary_Data_1_Geochemistry_and_Inputs.xlsx`) for the sample inventory
+and source references. Sample indices are zero-based row indices
 in data/geochem_class_table.parquet. The released checkpoints, fixed predictions
 and map products correspond to the input table included in this package.
 

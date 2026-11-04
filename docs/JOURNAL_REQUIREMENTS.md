@@ -23,10 +23,9 @@ archive does not meet the repository requirement.
 | English code comments | tools/verify_package.py scans Python comment tokens; docstrings were also reviewed. |
 | Data provenance and sharing terms | docs/PROVENANCE.md; data/SOURCES.md; DATA_LICENSE.md. |
 | Browsable source rather than a single archive | Regular Git files for code, small data and weights; versioned Release assets for large NetCDF files. |
-| Public access and article link | Complete after publication: publish source, tag and six assets; test a clean public clone/download; add the actual repository URL to the article. |
+| Public access and article link | Public repository; clean public clone and downloads verified; repository URL appears in the manuscript. |
 
 Local validation checks the supplied fixed workflow. The sample inventory and
-geochemical data scope are referenced in the accompanying manuscript's
-`Supplementary_Data_1` (`Supplementary_Data_1_Geochemistry_and_Inputs.xlsx`). The article, supplementary tables and repository must
-describe the same model population before submission. Public availability is assessed against the
-actual published repository, not the existence of this local folder.
+source information are referenced in the accompanying manuscript's
+`Supplementary_Data_1` (`Supplementary_Data_1_Geochemistry_and_Inputs.xlsx`).
+Public availability is assessed against the actual published repository.

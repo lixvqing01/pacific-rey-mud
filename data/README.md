@@ -5,10 +5,10 @@ All file references below are relative to the archive root.
 | File | Size | Contents and role |
 |---|---:|---|
 | `data/env_gridded.nc` | 473,733,373 bytes | Model-ready 0.1° environmental grid, 1200 latitudes × 1701 longitudes, covering 59.9°S–60.0°N and 120.0–290.0°E. It contains exactly 42 ordered model features and excludes `land_mask`. Feature order is recorded in `config/environment_features.json`. |
-| `data/geochem_class_table.parquet` | 2,388,147 bytes | Analysis-ready sediment table. See the accompanying manuscript's `Supplementary_Data_1` (`Supplementary_Data_1_Geochemistry_and_Inputs.xlsx`) for its reported sample inventory and geochemical data scope. This table contains the model inputs with coordinates, sample depth, REY, available bulk geochemistry, derived process proxies, facies labels and grouping fields. Missing source measurements remain missing rather than being filled. |
+| `data/geochem_class_table.parquet` | 2,388,147 bytes | Analysis-ready sediment table. See the accompanying manuscript's `Supplementary_Data_1` (`Supplementary_Data_1_Geochemistry_and_Inputs.xlsx`) for the sample inventory and source references. This table contains the model inputs with coordinates, sample depth, REY, available bulk geochemistry, derived process proxies, facies labels and grouping fields. Missing source measurements remain missing rather than being filled. |
 | `data/Average sedimentation rate.nc` | 25,985,648 bytes | Sedimentation-rate grid used with physical sample depth to calculate the stratigraphic age proxy. The stored variable is `Average sedimentation rate`. |
 | `data/boundaries.gmt` | 381,644 bytes | Plate-boundary linework used by map-plotting scripts. It is not a model input feature. |
-| `data/Supplementary_Data_1_Geochemistry_and_Inputs.xlsx` | See the included workbook | Byte-identical copy of the manuscript's Supplementary Data 1; sample inventory, geochemical inputs, source information and the Data scope sheet. Runtime sample indices refer to the model-ready Parquet table. |
+| `data/Supplementary_Data_1_Geochemistry_and_Inputs.xlsx` | See the included workbook | Byte-identical copy of the manuscript's Supplementary Data 1; sample inventory, geochemical inputs and source information. Runtime sample indices refer to the model-ready Parquet table. |
 
 ## Environmental model inputs
 
