@@ -1,0 +1,43 @@
+channel_index,feature,units,long_name,source_file,source_variable,interpolation_method
+0,Water depth gradient,,,Water depth gradient.nc,gradient_lon,interpolate_grid(method='linear')
+1,Magnetic anomaly,,z,Magnetic anomaly.nc,Magnetic anomaly,interpolate_grid(method='linear')
+2,Magnetic anomaly__std_w9,,z,Magnetic anomaly.nc,Magnetic anomaly,derived_after_base_interpolation
+3,Gravity anomaly,,z,Gravity anomaly.nc,Gravity anomaly,interpolate_grid(method='linear')
+4,distance_to_seamount_km,km,,,,derived_after_base_interpolation
+5,distance_to_guyot_km,km,,,,derived_after_base_interpolation
+6,distance_to_trench_km,km,,,,derived_after_base_interpolation
+7,distance_to_abyss_km,km,,,,derived_after_base_interpolation
+8,Summer primary productivity,,z,Summer primary productivity.nc,Summer primary productivity,interpolate_grid(method='linear')
+9,Productivity TOC index,,,,,derived_after_base_interpolation
+10,Sediment thickness gradient,,,Sediment thickness gradient.nc,gradient_magnitude,interpolate_grid(method='linear')
+11,Water depth__roughness_w9,,,,,derived_after_base_interpolation
+12,Water depth__std_w9,,z,Water depth.nc,water_depth,derived_after_base_interpolation
+13,Water depth,,z,Water depth.nc,water_depth,interpolate_grid(method='linear')
+14,distance_to_spreading_ridge_km,km,,,,derived_after_base_interpolation
+15,distance_to_basin_km,km,,,,derived_after_base_interpolation
+16,Sediment thickness,,z,Sediment thickness.nc,Sediment thickness,interpolate_grid(method='linear')
+17,Sediment thickness__roughness_w9,,,,,derived_after_base_interpolation
+18,Sediment thickness__std_w9,,z,Sediment thickness.nc,Sediment thickness,derived_after_base_interpolation
+19,Sedimentation water depth index,,,,,derived_after_base_interpolation
+20,Bottom water dissolved oxygen,,z,Bottom water dissolved oxygen.nc,Bottom water dissolved oxygen,interpolate_grid(method='linear')
+21,Vertical gravity gradient,,z,Vertical gravity gradient.nc,Vertical gravity gradient,interpolate_grid(method='linear')
+22,Geomorphic Features__cat_19__plateau,,GDAL Band Number 1,,,categorical_onehot(no_fill)
+23,Geomorphic Features__cat_17__hadal,,GDAL Band Number 1,,,categorical_onehot(no_fill)
+24,Gravity anomaly__std_w9,,z,Gravity anomaly.nc,Gravity anomaly,derived_after_base_interpolation
+25,Seafloor lithology__cat_6__radiolarian_ooze,,z,,,categorical_onehot(no_fill)
+26,Bottom current speed SD,1/(m*s),planetary beta,Bottom current speed SD.nc,Botvel std,interpolate_grid(method='linear')
+27,Seafloor lithology__cat_13__fine_grained_calcareous_sediment,,z,,,categorical_onehot(no_fill)
+28,Bottom oxygen to phosphate ratio,,,,,derived_after_base_interpolation
+29,Vertical gravity gradient__std_w9,,z,Vertical gravity gradient.nc,Vertical gravity gradient,derived_after_base_interpolation
+30,Macrobenthic biomass,,,Macrobenthic biomass.nc,z,interpolate_grid(method='linear')
+31,del3He,%,Delta Helium-3 anomaly,del3He.nc,del3He,interpolate_grid(method='linear')
+32,Seafloor lithology__cat_4__clay,,z,,,categorical_onehot(no_fill)
+33,Seafloor lithology__cat_5__calcareous_ooze,,z,,,categorical_onehot(no_fill)
+34,Bottom minus surface phosphate,,,,,derived_after_base_interpolation
+35,Bottom phosphate,micromoles_per_kilogram,Objectively analyzed mean fields for moles_of_phosphate_per_unit_mass_in_sea_water at standard depth levels.,Bottom phosphate.nc,phosphate_bottom,interpolate_grid(method='linear')
+36,Surface phosphate,micromoles_per_kilogram,Objectively analyzed mean fields for moles_of_phosphate_per_unit_mass_in_sea_water at standard depth levels.,Surface phosphate.nc,Phosphate 0m,interpolate_grid(method='linear')
+37,Geomorphic Features__cat_15__abyss,,GDAL Band Number 1,,,categorical_onehot(no_fill)
+38,log1p TOC per sedimentation rate,,,,,derived_after_base_interpolation
+39,Total organic carbon,,z,Total organic carbon.nc,Toc,interpolate_grid(method='linear')
+40,del3He ridge proximity index,,,,,derived_after_base_interpolation
+41,Average sedimentation rate,,z,Average sedimentation rate.nc,Average sedimentation rate,interpolate_grid(method='linear')

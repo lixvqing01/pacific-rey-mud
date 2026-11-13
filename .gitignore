@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+_verification/
+data/env_gridded.nc
+data/Average sedimentation rate.nc
+products/*.nc
+*.log
+*.partial
+results_gui/
+.DS_Store

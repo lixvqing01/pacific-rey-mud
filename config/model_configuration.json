@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "scientific_task": "mechanism-aware continuous REY prediction",
+  "primary_target": "log1p(REY_ppm)",
+  "thresholds_ppm": [
+    600,
+    800,
+    1000,
+    1500
+  ],
+  "facies": {
+    "0": "carbonate-diluted background",
+    "1": "carrier-rich enrichment",
+    "2": "low-dilution pelagic accumulation"
+  },
+  "feature_count": 42,
+  "input_channels": 43,
+  "patch_size": 11,
+  "cnn_filters": [
+    64,
+    128,
+    128
+  ],
+  "hidden_dim": 128,
+  "dropout": 0.25,
+  "training": {
+    "epochs": 100,
+    "patience": 20,
+    "batch_size": 128,
+    "eval_batch_size": 256,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "grad_clip": 5,
+    "student_t_nu": 4,
+    "threshold_loss_weight": 0.4,
+    "mechanism_loss_weight": 0.24,
+    "mechanism_class_weighting": "sqrt",
+    "threshold_pos_weight_cap": 3,
+    "threshold_loss_multipliers": "0.8,1.0,1.2,1.4",
+    "threshold_focal_gamma": 0.35,
+    "high_rey_loss_threshold": 1000,
+    "high_rey_loss_weight": 1.2,
+    "high_rey_sampler_threshold": 1000,
+    "high_rey_sampler_weight": 1.1,
+    "rank_loss_weight": 0.08,
+    "rank_loss_margin": 0.25,
+    "monotonic_loss_weight": 0.05,
+    "gate_balance_weight": 0.02
+  },
+  "evaluation": {
+    "grouping": "core_id",
+    "split_seed": 310,
+    "ensemble_seeds": [
+      310,
+      411,
+      512,
+      613,
+      714
+    ],
+    "balanced_repeats": 20,
+    "split_counts": {
+      "train_n": 2966,
+      "val_n": 666,
+      "test_n": 753,
+      "train_cores": 100,
+      "val_cores": 22,
+      "test_cores": 22
+    }
+  },
+  "map_prediction": {
+    "model_seed": 714,
+    "resolution_degrees": 0.1,
+    "age_layers_ka": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000,
+      1100,
+      1200,
+      1300,
+      1400,
+      1500,
+      1600,
+      1700,
+      1800,
+      1900,
+      2000,
+      2100,
+      2200,
+      2300,
+      2400,
+      2500,
+      2580
+    ],
+    "batch_size": 16384,
+    "age_batch_size": 2,
+    "patch_mode": "fast_grid",
+    "deep_water_mask_m": 3500
+  }
+}
